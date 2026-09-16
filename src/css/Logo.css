@@ -1,0 +1,28 @@
+
+@font-face {
+  font-family: "fraunces";
+  src: url("../assets/fonts/fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf");
+}
+@font-face {
+  font-family: "fraunces-italic";
+  src: url("../assets/fonts/fraunces/Fraunces-Italic-VariableFont_SOFT\,WONK\,opsz\,wght.ttf");
+}
+.logo {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.logoSpan {
+  color: hsl(15, 69%, 37%);
+  font-weight: 500;
+  font-family: "fraunces-italic", sans-serif;
+}
+
+.logoSpan-down{
+  font-family: "fraunces";
+  font-weight: 600;
+}
+
+.sun{
+  width: 15%;
+}

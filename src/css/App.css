@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "dm-mono-regular";
+  src: url("../assets/fonts/dm-mono/DMMono-Regular.ttf");
+}
+
+@font-face {
+  font-family: "dm-mono-medium";
+  src: url("../assets/fonts/dm-mono/DMMono-Medium.ttf");
+}
+@font-face {
+  font-family: "dm-sans";
+  src: url("../assets/fonts/dm-sans/DMSans-VariableFont_opsz\,wght.ttf");
+}
+@font-face {
+  font-family: "fraunces";
+  src: url("../assets/fonts/fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf");
+}
+@font-face {
+  font-family: "fraunces-italic";
+  src: url("../assets/fonts/fraunces/Fraunces-Italic-VariableFont_SOFT\,WONK\,opsz\,wght.ttf");
+}
+.App {
+  width: 100%;
+  max-width: 375px;
+  height: 100vh;
+  /* padding: 20px; */
+  margin: 0 auto;
+  border: 2px solid red;
+  font-family: "dm-mono-regular", sans-serif;
+}

@@ -1,8 +1,0 @@
-.logo{
-  display: flex;
-  gap:15px;
-  align-items: center;
-}
-.logoSpan{
-  color: hsl(340, 48%, 52%);
-}
