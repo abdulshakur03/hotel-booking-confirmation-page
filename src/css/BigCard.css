@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "fraunces-italic";
+  src: url("../assets/fonts/fraunces/Fraunces-Italic-VariableFont_SOFT\,WONK\,opsz\,wght.ttf");
+}
+
+@font-face {
+  font-family: "fraunces";
+  src: url("../assets/fonts/fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf");
+}
+.big-card-container {
+  /* background-color: red; */
+  box-shadow: 0px 5px 10px 0px hsla(22, 72%, 56%, 0.801);
+
+  padding: 20px 30px;
+  border-radius: 20px;
+  margin: 30px 10px;
+  background-color: #f4f4f4;
+  transform: skewX(-2deg);
+  background: linear-gradient(15deg, hsl(15, 69%, 37%), hsl(22, 72%, 56%));
+}
+.content {
+  width: 100%;
+  transform: skewX(2deg); /* Reverses the slant for the content */
+  color: #f4f4f4;
+}
+
+.sunny {
+  width: 20%;
+  margin-left: 80%;
+}
+
+hr.dashed-line {
+  border: none;
+  border-top: 2px dashed #e7dcdc3b;
+  width: 100%;
+}
+
+.welcome {
+  font-size: 12px;
+}
+
+.host-note-heading {
+  color: hsl(45, 100%, 74%);
+  font-family: fraunces-italic;
+  font-weight: 600;
+  font-size: 18px;
+  margin: 20px 0 10px 0;
+}
+
+.host-name {
+  font-family: fraunces-italic;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.host-note {
+  /* font-family: fraunces; */
+  max-width: 30ch;
+  /* text-align: left; */
+}
+
+.room {
+  font-size: 10px;
+  margin-top: 50px;
+}
+
+.room-name {
+  font-family: fraunces;
+  font-weight: 600;
+  font-size: 18px;
+}
