@@ -1,5 +1,6 @@
 import "../css/Main.css";
-import BigCard from "./BigOrangeCard";
+import BigOrangeCard from "./BigOrangeCard";
+import BigWhiteCard from "./BigWhiteCard";
 export default function Main() {
   return (
     <div className="main">
@@ -13,7 +14,8 @@ export default function Main() {
         <button>Print receipt</button>
         <button>Add to calendar</button>
       </div>
-      <BigCard />
+      <BigOrangeCard />
+      <BigWhiteCard/>
     </div>
   );
 }

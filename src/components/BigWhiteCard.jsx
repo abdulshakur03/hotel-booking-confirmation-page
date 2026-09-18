@@ -1,9 +1,16 @@
+import "../css/BigWhite.css";
+
 export default function BigWhiteCard() {
   return (
-    <div className="big-card-container">
+    <div className="big-white-card-container">
+      <div className="white-header">
+        <span>Receipt</span> <span> № MS-2026</span>
+        <span>0421-AH</span>
+        Your stay
+      </div>
       <hr class="dashed-line" />
 
-      <span className="content">
+      <span className="white-card-content">
         <p className="welcome">WELCOME CARD</p>
         <img src="src/assets/images/icon-sun.svg" alt="sun" className="sunny" />
         <p className="host-note-heading">A note from your host,</p>
@@ -19,3 +26,23 @@ export default function BigWhiteCard() {
     </div>
   );
 }
+
+// Check in
+// 25 Apr
+// Saturday · 15:00
+
+// Check out
+// 29 Apr
+// Wednesday · 11:00
+
+// Room · La Garrigue · 4 nights
+// € 620.00
+// Breakfast · 2 guests
+// € 96.00
+// Tourist tax
+// € 14.40
+
+// Total paid
+// € 730.40
+
+// Paid · Wise · GBP

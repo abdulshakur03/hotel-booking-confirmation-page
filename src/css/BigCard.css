@@ -55,8 +55,10 @@ hr.dashed-line {
 
 .host-note {
   /* font-family: fraunces; */
-  max-width: 30ch;
-  /* text-align: left; */
+  max-width: 28ch;
+  color: hsl(41, 100%, 93%);
+  letter-spacing: 0px;
+  font-size: 13px;
 }
 
 .room {
